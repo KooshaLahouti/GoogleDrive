@@ -19,7 +19,7 @@ def repeat(sc):
         'parents': ['1PqRdx6K1Th3aCboZLH_5uAyI-jZGT9ag']
     }
 
-    media_content = MediaFileUpload('25580.jpg', mimetype='image/jpg')
+    media_content = MediaFileUpload('ThePhotoName.jpg', mimetype='image/jpg')
 
     file = service.files().create(
         body=file_metadata,
